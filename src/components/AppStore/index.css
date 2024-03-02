@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9, #dfe2e5);
+  min-height: 100vh;
+}
+.main-heading {
+  font-family: Roboto;
+  color: #1e293b;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  width: 280px;
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #1e293b;
+  border-width: 1px;
+}
+.search-icon {
+  width: 20px;
+}

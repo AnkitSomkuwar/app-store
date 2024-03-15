@@ -1,17 +1,28 @@
-.tab-item-container {
-  padding-right: 2px;
+.app-logo {
+  width: 100px;
+  height: 100px;
 }
-.tab-btn {
-  font-family: Roboto;
-  font-size: 15px;
-  color: #9aa5b1;
-  font-weight: 600;
-  border-width: 0px;
-  background-color: transparent;
-  cursor: pointer;
+
+.app-item {
+  background-color: #ffffff;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  width: 200px;
+  border-radius: 10px;
 }
-.active-tab-btn {
-  border-bottom: 2px sold #0b67ff;
-  color: #3e4646;
+
+.app-name {
+  font-size: 23px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .app-item {
+    max-width: 170px;
+  }
 }
 

@@ -1,15 +1,17 @@
-/* Write your CSS here */
-.tab-item-container {
-  padding-right: 5px;
-}
-.tab-btn {
-  font-family: Roboto;
-  color: #9aa5b1;
-  font-weight: 600;
+.tab-item {
   background-color: transparent;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.tab-button {
+  background-color: transparent;
+  border: 0px;
+  font-size: 24px;
+  color: #7b8794;
   cursor: pointer;
 }
-.active-tab-btn {
-  border-bottom: 2px sold #0b67ff;
-  color: #3e4646;
+
+.active-tab-button {
+  color: #2563eb;
 }
